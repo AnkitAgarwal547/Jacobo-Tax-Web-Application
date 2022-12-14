@@ -66,43 +66,4 @@ export default class TaxFiler {
         return axios.put(`${url}/orderstatus/${taxFiler_id}`, {orderStatus:orderStatus}, {headers:{"x-auth-token":token}});
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // static get = (userid) => {
-    //     console.log('get boxcart client 22', userid)
-    //     return axios.get(`${url}/${userid}`);}
-
-    // static post(boxcart) {
-    //     console.log(' client post boxcart', boxcart );
-    //     return axios.post(url, boxcart);
-    // }
-
-    // static put(boxcart) {
-    // console.log('put boxcart client',boxcart.userid, boxcart)
-    //    return axios.put(`${url}/${boxcart.userid}`, boxcart);
-    // }
-
-    // static delete(userid) {
-    //     return (
-    //         confirm("Are you sure you want to delete this boxcart?") &&
-    //         axios.delete(`${url}/${userid}`)
-    //     );
-
-    // }
 }
