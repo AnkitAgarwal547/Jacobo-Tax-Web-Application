@@ -1,5 +1,4 @@
 router.post("/", async (req, res) => {
-    // console.log('auth post', req.body);
     const {
         error
     } = validate(req.body);
